@@ -1,0 +1,116 @@
+body {
+    background-color: #e9d0b3;
+}
+
+.logo-container {
+    position: absolute;
+    margin-top: 120px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    display: flex;
+}
+
+.logo {
+    max-width: 390px;
+    height: auto;
+}
+
+.nadguzikami {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vh;
+}
+
+.image-button,
+.image-button2,
+.image-button3,
+.image-button4,
+.image-button5,
+.image-button6,
+.image-button7  {
+    position: absolute;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    left: calc(50% - 200px); 
+}
+
+.image-button {
+    top: 528px; 
+}
+
+.image-button2 {
+    top: 620px; 
+}
+
+.image-button3 {
+    top: 713px;
+}
+
+.image-button4 {
+    top: 807px;
+}
+
+.image-button5 {
+    top: 900px;
+}
+
+.image-button6 {
+    top: 994px;
+}
+
+.image-button7 {
+    top: 1130px;
+    cursor: pointer;
+}
+
+.image-button7:hover {
+    cursor: auto; /* Set cursor to default when hovered on button7 */
+}
+
+.image-button img,
+.image-button2 img,
+.image-button3 img,
+.image-button4 img,
+.image-button5 img,
+.image-button6 img,
+.image-button7 img {
+    width: 400px;
+    height: auto;
+    display: block;
+}
+
+.image-button:hover img,
+.image-button2:hover img,
+.image-button3:hover img,
+.image-button4:hover img,
+.image-button5:hover img,
+.image-button6:hover img {
+    transform: scale(1.04);
+}
+
+
+.image-button:focus {
+    outline: none;
+}
+
+.image-button:focus,
+.image-button2:focus,
+.image-button3:focus,
+.image-button4:focus,
+.image-button5:focus,
+.image-button6:focus,
+.image-button7:focus {
+    outline: none;
+}
+
+.pozdro {
+    width: 400px;
+    position: absolute; 
+    left: calc(50% - 200px); 
+    top: 136px;
+}
